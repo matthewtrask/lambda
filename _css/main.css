@@ -299,3 +299,19 @@ footer a:hover {
 #copyright {
     text-align: center;
 }
+
+@media (max-width: 320px) {
+    header {
+        height: 45px;
+        background: #000;
+    }
+    .nav-brand {
+        margin:  -19px 0 0 -13px;
+    }
+  #promo {
+  	background: url('../_img/320_promo_bg.jpg')no-repeat;
+      height: 750px;
+        margin: 0 auto;
+    
+  }
+}
